@@ -1,0 +1,52 @@
+.img-class{
+    width:120px;
+    height:auto;
+    display:block;
+    border: 1px solid white;
+    margin:auto
+  }
+  
+  .img-class:hover {
+      border:1px solid red;
+      cursor:pointer;
+  }
+  
+  .left-block{
+    display:inline-block;
+    border-right:2px solid darkblue;
+    width:45%;
+    text-align:center;
+  }
+  
+  .right-block{
+    display:inline-block;
+    width:45%;
+    vertical-align:top;
+  }
+  
+  #countdown3{
+    text-align:center;
+    font-size:8em;
+    display:none;
+    color:red;
+  }
+  
+  #countdown2{
+    text-align:center;
+    font-size:8em;
+    display:none;
+    color:yellow;
+  }
+  
+  #countdown1{
+    text-align:center;
+    font-size:8em;
+    display:none;
+    color:green;
+  }
+  
+  #result{
+    text-align:center;
+    font-size:8em;
+    display:none;
+  }

@@ -1,0 +1,15 @@
+.title{
+    text-align: center;
+    color:red;
+}
+
+.myButton{
+    padding: 10px 20px;
+    background-color: cornflowerblue;
+    border:none;
+}
+
+#myLunch{
+    text-align: center;
+    color:blue;
+}

@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <link href="./rps.css" rel="stylesheet" type="text/css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="left-block"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQ9MMBsPDNfeVYqMfO4mpKUhSb_OOif483lzuXd8SO6rXVQ905w" class="img-class" onclick="startGuess('paper')">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd98LEAPVyUJ9FviL1yMPC5U9_qr0fNKUtvvvRTO1Nkmrxs4_7" class="img-class" onclick="startGuess('scissors')">
+        
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIzhz6k1mtjUjI3_O445Q2wecEwIK_5_UuCl0xCSdwjXL4xUEN" class="img-class" onclick="startGuess('rock')">
+        
+        <p>You lose <span id="loseCount">0</span> times</p>
+        <p>You win <span id="winCount">0</span> times</p>
+        <p>You draw <span id="drawCount">0</span> times</p></div>
+        <div class="right-block">
+          <h1 id="countdown3">3</h1>
+          <h1 id="countdown2">2</h1>
+          <h1 id="countdown1">1</h1>
+          <h1 id="result"></h1>
+        </div>
+    <script src="./rps.js" type="text/javascript" language="javascript"></script>
+</body>
+
+</html>
