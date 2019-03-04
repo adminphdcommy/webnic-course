@@ -1,3 +1,6 @@
+html,body{
+  height:90%;
+}
 .img-class {
   width: 120px;
   height: auto;
@@ -14,14 +17,17 @@
 .left-block {
   display: inline-block;
   border-right: 2px solid darkblue;
-  width: 45%;
+  width: 48%;
   text-align: center;
+  height:100%
 }
 
 .right-block {
   display: inline-block;
-  width: 45%;
+  width: 48%;
   vertical-align: top;
+  height:100%
+
 }
 
 #countdown3 {
@@ -70,4 +76,10 @@
   height:auto;
   display:none;
   margin:auto;
+}
+
+#welcomenote{
+  margin-top:40%;
+  vertical-align: middle;
+  text-align: center;
 }

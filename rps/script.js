@@ -17,13 +17,16 @@ var resultPaper = document.getElementById("result-img-paper")
 var resultRock = document.getElementById("result-img-rock")
 var resultScissors = document.getElementById("result-img-scissors")
 
+var welcomenote = document.getElementById("welcomenote")
+
 
 
 function startGuess(guess) {
   resultPaper.style.display = "none"
   resultRock.style.display = "none"
   resultScissors.style.display = "none"
-  
+  welcomenote.style.display = "none"
+
   result.style.display = "none"
   countdown3.style.display = "block"
   setTimeout(() => {
