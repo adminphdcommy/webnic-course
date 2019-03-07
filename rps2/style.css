@@ -1,0 +1,60 @@
+html , body{
+    height: 100%
+}
+
+.partition-left {
+    width:49%;
+    display:inline-block;
+    border-right: 2px solid blue;
+    text-align:center;
+    height:100%;
+}
+
+.partition-right {
+    width:49%;
+    display:inline-block;
+    text-align:center;
+    height:100%;
+    vertical-align: top;
+}
+
+.img-class{
+    width:120px;
+    height:auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    border: 1px solid transparent;
+}
+
+.img-class:hover{
+    border: 1px solid red;
+}
+
+.divider {
+    height:1px;
+    width:100%;
+    background-color: grey;
+    margin:25px 0px;
+}
+
+.counter{
+    font-size:150px;
+    display:none;
+}
+
+#botImage img{
+    width:200px;
+    height:auto;
+
+}
+
+#botImage {
+    margin-top:100px;
+    display:none;
+}
+
+#desc{
+    font-size:120px;
+    display:none;
+}

@@ -32,15 +32,17 @@ function startGuess(guess) {
   setTimeout(() => {
     countdown3.style.display = "none"
     countdown2.style.display = "block"
-    setTimeout(() => {
-      countdown2.style.display = "none"
-      countdown1.style.display = "block"
-      setTimeout(() => {
-        countdown1.style.display = "none"
-        userGuess(guess)
-      }, 1000)
-    }, 1000)
   }, 1000)
+
+  setTimeout(() => {
+    countdown2.style.display = "none"
+    countdown1.style.display = "block"
+  }, 2000)
+
+  setTimeout(() => {
+    countdown1.style.display = "none"
+    userGuess(guess)
+  }, 3000)
 }
 
 function userGuess(guess) {

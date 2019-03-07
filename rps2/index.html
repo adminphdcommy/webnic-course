@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+
+    <div class="partition-left">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQ9MMBsPDNfeVYqMfO4mpKUhSb_OOif483lzuXd8SO6rXVQ905w"
+            class="img-class" onclick="userStart('paper')">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd98LEAPVyUJ9FviL1yMPC5U9_qr0fNKUtvvvRTO1Nkmrxs4_7"
+            class="img-class" onclick="userStart('scissors')">
+
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIzhz6k1mtjUjI3_O445Q2wecEwIK_5_UuCl0xCSdwjXL4xUEN"
+            class="img-class" onclick="userStart('rock')">
+
+        <div class="divider"></div>
+
+        <p>You win <span id="winCount">0</span> time</p>
+        <p>You lose <span id="loseCount">0</span> time</p>
+        <p>You draw <span id="drawCount">0</span> time</p>
+    </div>
+    <div class="partition-right">
+        <h1 class="counter">3</h1>
+        <div id="botImage"><img id="botResult"></div>
+        <h1 id="desc">Draw</h1>
+    </div>
+
+
+    <script src="./script.js" type="text/javascript" language="javascript"></script>
+</body>
+
+</html>
